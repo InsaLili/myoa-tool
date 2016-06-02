@@ -115,7 +115,7 @@ function averageData(group, groupNum){
             if(player3==undefined){
                 var value = [parseFloat(player1[i][j]), parseFloat(player2[i][j]), parseFloat(player3[i][j])];
             }else{
-                var value = [parseFloat(player1[i][j]), parseFloat(player2[i][j]), parseFloat(player3[i][j]), parseFloat(player4[i][j])];
+                var value = [parseFloat(player1[i][j]), parseFloat(player2[i][j]), parseFloat(player3[i][j])];
             }
             var count = 0;
             var totalValue = 0;
